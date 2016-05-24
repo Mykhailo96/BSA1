@@ -6,13 +6,16 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication
 {
-    class Program
+    class MyClass
     {
-        static void Main(string[] args)
+        public int Add(int a, int b)
         {
-            MyClass mc = new MyClass();
+            return a + b;
+        }
 
-            mc.Write(mc.Add(3, 6));
+        public void Write(int x)
+        {
+            Console.WriteLine(x);
         }
     }
 }
