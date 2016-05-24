@@ -10,6 +10,16 @@ namespace ConsoleApplication
     {
         static void Main(string[] args)
         {
+            MyClass mc = new MyClass();
+
+            mc.Write(mc.Add(3, 6));
+
+            WriteWord("Done.");
+        }
+
+        static void WriteWord(string s)
+        {
+            Console.WriteLine(s);
         }
     }
 }
