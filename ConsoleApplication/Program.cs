@@ -14,5 +14,10 @@ namespace ConsoleApplication
 
             mc.Write(mc.Add(3, 6));
         }
+
+        static void WriteWord(string s)
+        {
+            Console.WriteLine(s);
+        }
     }
 }
